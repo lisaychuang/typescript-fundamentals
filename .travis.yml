@@ -9,6 +9,7 @@ env:
   - EXERCISE=accounts
   - EXERCISE=dealer
   - EXERCISE=color-functions
+  - EXERCISE=stack
 
 branches:
   except:
