@@ -58,6 +58,18 @@ let input = document.querySelection('input#name') as HTMLInputElement;
 - Nominal type system: name of a class/ type (e.g.`HTMLinputField`)
 - Structural type system: Concerned with the shape of objects. Think of this as the minimum requirement for an instance
 
+### Object Shapes: interfaces
+- Interfaces describe structure, they are not compiled to code/ have no implemented
+- DRY type definition allows for easy refactoring
+- Interfaces are open, and can be extended!
+- Interfaces can be exported to be used as a module
+
+### The **any** type
+- Allows for a value of any kind: number, boolean, strings etc
+- This is how every mutable JS value is treated!
+- Refactoring: start with making all mutable values `any` explicitly, and then specify type on second pass
+
+Note: There's also a `never` type - compatible with nothing!
 
 
 
