@@ -54,6 +54,12 @@ let input = document.querySelection('input#name') as HTMLInputElement;
 
 - Function can also be typed, both arguments & return tyoes
 
+## Type Systems
+- Nominal type system: name of a class/ type (e.g.`HTMLinputField`)
+- Structural type system: Concerned with the shape of objects. Think of this as the minimum requirement for an instance
+
+
+
 
 
 
