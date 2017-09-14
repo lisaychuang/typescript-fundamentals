@@ -27,6 +27,33 @@ Best practice: for mutable values (e.g. `array`), use with `Object.freeze`, whic
 
 NOTE: Read up on [Immutable JS](https://facebook.github.io/immutable-js/)
 
+## Why add Tpes?
+- JS does unintuitive things to convert primitive types
+- Move runtime errors upstream to compile errors
+- Types are self-documenting!
+- Modern JS runtimes (e.g. Chrome [V8 interpreter](https://developers.google.com/v8/), [GlimmerJS](https://glimmerjs.com/)) are already written in Typed Languages
+
+## Implicit Typing
+- TypeScript compiler guesses data `types` just through assignment
+- Once you assign a value to a variable, you cannot change the type
+
+## Explicit Typing
+- Type annotation at variable declaration:
+
+Example:
+```
+let techerAge: number = 34;
+```
+
+- Type casting: explicitly converting a data type from one to another using the `as` keyword
+
+Example:
+```
+let input = document.querySelection('input#name') as HTMLInputElement;
+```
+
+- Function can also be typed, both arguments & return tyoes
+
 
 
 
